@@ -1,0 +1,108 @@
+JS version 5
+
+*var,let,const,ES6
+*primitive datatype- number , string, boolen, undefined, symbol, null
+*ref type - array, objects, date
+*Operators
+        +,-,*,/,%,**
+        =,+=,-=,*=,/=,%=,**=
+        ==,===,!=,!==,<,>,<=,>=
+        &&,||,!
+        &,|,^,<<,>>
+*Id  -snake case(use _ eg-first_name) - env
+    -camel case(use first latter in capilal eg-firstName)-varables & functions
+    -pascle case(usr first latter of first word capital eg-FirstName) - react components
+*Control flows 
+    conditional statments - If else
+                          - switch case
+    functions -function functionname(parameter){function body}
+              -const fun1= function (parameter){function body}
+              -arrow function - const fun1= (parameter)=>{function body}
+    loops -for loop (for in(index) -use on array,for of(element)-use on array,object)
+          -while loop
+          -do while loop
+
+*find,findindex,some,every,fortech,sort,reverse,flat,join
+
+*String methods
+        chartAt,indexOc,lastindexOf,includes
+        trim,split,slice,toUppercase,tolowercase
+*Math,Number,Date
+    -Math=>sqrt,random,ceil,floor,tound,pow,MIN,MAX
+    -Number=>toFixed, Parseint, ParseFloat,isNaN,isInterger
+    -Date=>getFull, getMonth, getday, getdate, gethour, getminutes, getseconds, getTime, Now(), todatestring, totimestring ,(Date.now())
+
+*Type conversion(explicit conversion) and type coercion(implicit conversion)
+
+*Scope
+    -Global Scope
+    -Functional Scope/Local Scope
+    -Block Scope (ES6)
+    {
+        var- Global Scope variable
+        let,const- block Scope variable
+    }
+//difference b/n var, let, const
+-let,const come in ES6 but var is present before
+-the variable declaired with var can be redeclaired and can be reassigned
+-the variable declaired with let can not be redeclaired and can be reassigned
+-the variable declaired with const can not be redeclaired and can not be reassigned
+-var is Global Scope variable and let,const is local Scope/block Scope
+
+
+
+//type of null is object
+//array is lenear datastructure which store different type of datatype in contigues memory location(type of array is object)
+//object is collection of multiple keyvalues
+//"==" only compare the value but "===" compare value as well as datatype
+
+//short circuit evalution
+    0, "", false, undifine, null  => are falsy rest of all are true
+
+//Object.keys(obj)
+//callback function vs higher order function
+//array methods
+    -push,pop,shift,unshift,map,filter,reduce,slice,splice,split,indexof,lastIndexof,concat,includes,find,findindex,some,every,foreach,sort,reverse,flat
+
+console.log(arr.push(60));//return new length
+
+console.log(arr.pop());//return the element which removed from starting
+
+console.log(arr.shift());//return the element which removed from starting
+
+console.log(arr.unshift(24));//return new length 
+
+
+//difference b/n Object.seal anf Object.freeze
+-Seal only stop changing object name
+-freeze stop changin anything 
+
+//Spread Operators , Rest Operators
+//Destructuring and Rest
+
+//hoisiting
+-if we access any variable of function before its declairation
+-var support hoisiting
+-normal function also support hoisiting but other two do not work
+
+
+//DOM(Doc obj model) Maniuplation
+//InnerHTML(Use as html content), innerText(use as text data), textContent(use as text data, visible on ui)
+
+
+//setInterval,setTimeout,clearTimeout
+//promise= It is an object which hold feature value 
+            -it has three states panding fulfilled rejected
+
+    result
+        .then((res)=>{})//fulfilled  (store result in res)
+        .catch(()=>{})//rejected     (give error)
+
+    priority system =   sysnc
+                        asyns
+                        promise
+                        setTimeout
+
+
+//this keyword refrences on different places
+//prototype and __proto__ 

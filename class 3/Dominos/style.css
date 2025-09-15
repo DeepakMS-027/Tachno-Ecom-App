@@ -1,0 +1,190 @@
+#im{
+    height: 20px;
+    padding: 15px;
+}
+#list{
+    list-style:none;
+    display: flex;
+    gap: 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+body
+{
+  margin: 0;
+}
+#nave
+{
+    background-color: red;
+    display: flex;
+    position:fixed ;
+    justify-content:space-around;
+    width:100% ;
+
+}
+#Sele
+{
+    background-color: red;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+}
+.hero {
+  margin-top: 30px;
+}
+
+.hero h1 {
+  font-size: 50px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.hero p {
+  font-size: 20px;
+  margin-top: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.footer {
+  background: red;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+.footer ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+}
+.welcome {
+  text-align: center;
+  padding: 60px;
+}
+
+.welcome .btn {
+  display: inline-block;
+  background: red;
+  color: white;
+  padding: 20px 30px;
+  margin-top: 30px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+img{
+    height: 150px;
+}
+
+#pizza
+{
+    margin-top: 80px;
+}
+/* body
+{
+  margin: 0;
+} */
+ #events{
+    height:  350px;
+    width: 300px;
+}
+.events-section img{
+    width: 250px;
+    height: 200px;
+    border-radius: 20px;
+}
+.events2 img {
+    width: 300px;
+    height: 250px;
+    border-radius: 20px;
+}
+.map{
+    display: flex;
+    justify-content: center;
+    margin: 50px auto;
+}
+#card-order{
+    text-align: center;
+    border-radius: 20px;
+        border: 1.5px solid lightseagreen;
+    width: 200px;
+    padding-bottom: 15px;
+}
+#card-order img{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+}
+.events-section{
+    display: flex   ;
+    text-align: center;
+    border-radius: 20px;
+    width:100%;
+    height: 300px;
+    padding-bottom: 15px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    justify-content: center;
+    /* justify-content: center;
+    gap: 15px; */
+}
+.delivery-card{
+    border: 1.5px solid lightseagreen;
+    
+   width: 200px;
+   height: 250px;
+}
+.menu-card{
+      border: 1.5px solid lightseagreen;
+  
+   width: 200px;
+   height: 250px;
+}
+.restaurant-card{
+       border: 1.5px solid lightseagreen;
+  
+   width: 200px;
+   height: 250px;
+}
+.order{
+    display: flex;
+    width: 1200px;
+    justify-content: center;
+    margin: 100px auto;
+    gap: 10px;
+}
+
+.services{
+    margin : 60px auto;
+    display: flex;
+    width: 700px;
+    justify-content: space-around;
+    height: 350px;
+    background-color:white;
+    text-align: center;
+    margin-bottom: 0;
+}
+h1{
+    margin-top: 2px;
+    font-size: 100px;
+}
+h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 60px;
+    font-weight:lighter;
+}
+h4{
+    font-size: 35px;
+    font-weight: lighter;
+}

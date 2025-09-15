@@ -1,0 +1,75 @@
+ HTML tags 
+*heading tags (h1 to h6)
+-from different size
+-for creating multiple lines ##h${content-$}*6
+*paragraph tag (p)
+-for paragraph generate
+*div tag
+-to create division or saction
+-we can create multiple div one in one
+*ancher tag (a)
+-refrence any file or link 
+-ex <a href="path">name</a>
+-target attribute=use to open same tab or another tab
+#image tag (img)
+-self closing or void element
+-use to add image by path(local)or by link
+-ex <image src="path" alt="">
+*list tag(ul)(ol)
+- use li for input list items
+*pre tag
+-show file as it is you write in code with same spacing and style
+*sub(sub) and super(sup) script tags 
+*table tag
+-format=<table>
+        <thead>(table Head)
+            <tr>(table row)
+                <th>Heading</th>(table Heading)
+            </tr>
+        </thead>
+         <tbody>(table body)
+            <tr>
+                <td>Data</td>(table data)
+            </tr>
+        </tbody>
+    </table>
+- row span and column span use to marge row and column
+*input tags(input)
+-use type attribute for change type of text (text,number,checkbox,etc)
+-if multiple radio have same name then only one is select.
+-Select tag is use for Selectbox {
+     <select name="" id="">
+        <option value="">India</option>
+        <option value="">China</option>
+    </select>
+}
+-Textarea is use to select fixed size of area for text
+*Form tag
+-use to create form which combine all details
+*name attribute act as variable which store data
+*Method get is use to show data by url 
+*vedio,audio tag use to add video,audio in page
+*iframe is use to show some part of any website on our page
+
+
+
+
+
+
+
+
+//ssl is licence which is use for https
+//difference b/n href and src
+- in href it crete a refrence link 
+- in src it take file to the page 
+//difference b/n b tag and strong
+//Block lavel Element and Inline Element
+-block level element take full space like p tag
+-block level element take full space(width) also when content is not avilable 
+-Inline Element tale limited space on page for display
+//Sematic tags
+-use to create layout in code
+-ex header ,footer, main, selection, aside, article, strong
+//Void Element
+-Self closing element
+-ex hr,br etc

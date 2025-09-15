@@ -1,0 +1,33 @@
+#header{
+    background-color: chartreuse;
+    padding: 20px
+}
+header nav h1{
+    color: blue;
+}
+header nav a{
+    color: rgb(255, 44, 202);
+
+}
+header nav ul{
+        display: flex;
+        gap: 40px;
+        list-style: none;
+}
+
+#para{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: system-ui;
+    font-style: oblique;
+
+    text-align: center;
+    text-decoration: underline dashed cadetblue ;
+    text-shadow: 1px 2px 3px rebeccapurple;
+    color: rgb(74, 125, 221);
+    border-width: 20px;
+    border-color:brown ;
+    border-style:ridge;
+    padding:20px;
+}
+div

@@ -1,0 +1,53 @@
+*{
+    background-color: black;
+    color: white;
+}
+/*p::selection
+{
+    background-color:white;
+    color:black;
+}
+p::before
+{
+    content:"";
+    border: 9px solid white;
+}
+
+p::after
+{
+    content:"";
+    border: 9px solid white;
+} */
+/* #part{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+
+    position:relative;
+    top: 10px;
+} */
+#A1
+{
+    width: 400px;
+    height: 400px;
+    background-color: aqua;
+    position: absolute;
+    top: 0px;
+    z-index: 0;
+}
+#A2
+{
+    width: 300px;
+    height: 300px;
+    background-color:greenyellow;
+    position: absolute;
+    top: 0px;
+    z-index: 0;
+}
+#A3{
+    width: 200px;
+    height: 200px;
+    background-color:lime;
+    position: absolute;
+    top: 0px;
+}

@@ -1,0 +1,14 @@
+//difference b/n git and github
+//use of git (version controling)
+//difference b/n cvcs, dvcs
+
+
+
+
+git init (Initialized empty Git repository in file location(local system))
+straging area
+git add _file location_(put in straging area)
+git add .(for all file) 
+git status (check file states)
+git commit -m "comments"(for commit)
+git log (check loges)

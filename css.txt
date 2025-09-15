@@ -1,0 +1,115 @@
+*css version 3
+
+*There are three type of css 
+-1 Inline css 2 Internal css 3 External css
+*Inline css
+-use style attribute
+*Internal css 
+-use style tag in head tag
+-use for only one(working) page 
+*External css 
+-Need to create new file with .css
+-use link-css tage for connect
+-use for multiple pages
+
+
+//For select particular element there are three main method (selector)
+-1 id(use # id name in style tag)
+-2 class(use same css on multiple element of same class)
+        (use . class neme to select)
+-3 tag-name (use for particular tag )
+-4 group selector(use comma(,) for select multiple selector)
+-5 descendant selector(target parent to children(or grand child etc))
+-6 child selector (only target child using (>) )
+-7 Universal selector(work on whole page use (*))
+-8 Sibling selectors(Adjacent Sibling Selector (+) target next sibling)
+                    (General Sibling Selector (~) target all sibling)
+-9 Pseudo selector(Pseudo clesses(:) -focus, hover, link, active, visited,nth-child, lase-child, first-child, empty)
+                  (Pseudo element(::) -before, after, placeholder, selection, first-line, first-latter)
+
+
+//CSS Prop
+*Hight Prop=give hight , Width Prop= give Width
+*background-color prop=give background color to part 
+*Font Prop
+-font-size
+-font-weight(bold text)
+-font-family(change font)
+-font-style
+*Text Prop
+-Text-align(position in tag)
+-Text-decoration
+-Text-Shadow(x y blur color)
+-color(#, rgb)
+-border(size style color)
+*padding,border,margin
+*justify-content
+*flax-direction
+*flax-wrap
+*align-item(positions items inside each line.)(horizontaly)
+*align-content(positions the lines themselves when there are multiple lines)
+*child prop
+-order
+-align-self
+-flex-grow
+*grid
+-grid-template-columns: 1fr 1fr 1fr
+-grid-template-rows: 200px 300px 400px;
+-grid-row
+-grid-column
+*Overflow
+*transform (translate, rotate, scale, skew)
+-transition-duration
+-transition-timing-function  
+-transition-delay
+-transform-origen
+*@keyframes
+*animation(keyframes name, duration, timing-function, delay, iteration-count, direction, fillmode)
+*breakpoints(@media screen and{min-width :xpx})
+
+//position prop (default value =static)
+-static
+-absolute
+-relative
+-fixed
+-sticky
+(supportive prop)-top,bottom,left,right,z-index
+$if we give parent relative position and give child absolute position them child move inside the parent only
+
+//If we use same id name for different element then css will work fine but it cause issue in js
+//CSS Priority Order
+-!important (highest)
+-Inline styles (style="")
+-ID selectors (#id)
+-Class selector(.class)
+-Tag-name selector
+-Universal selector * & inherited styles
+-Source order (last one wins if same specificity)
+-In Internal and External the last one get higher Priority
+
+//Inline v/s Inline-block
+
+//Bg color ocurre in content + padding + border
+Margin
+Margin collapse work only vertical 
+Size unit
+Px	fixed size
+Vh	according to screen size (height)
+Vw	according to screen size (width)
+%	according to parent (like body is parent)
+Em
+rem
+
+//Order of use Pseudo Class Selector 
+-link
+-visited0
+-hover
+-active 
+
+//there are two types od variable in css
+1-globle variable(accessable in whole page)
+2-local variable(accessable in perticular element)
+*to define variable we do 
+        --variable_name-property
+*to use variable
+        var(variable_name)
