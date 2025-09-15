@@ -4,7 +4,7 @@
 
 
 
-
+//Commands of git 
 git init (Initialized empty Git repository in file location(local system))
 straging area
 git add _file location_(put in straging area)
@@ -12,3 +12,7 @@ git add .(for all file)
 git status (check file states)
 git commit -m "comments"(for commit)
 git log (check loges)
+git diff ( check difference)
+git branch -M main
+git remote add origin _address_
+git push -u origin _branch name_
